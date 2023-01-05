@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--custom css-->
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <!--bootstrap css-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        <title>Site Home | User Dashboard</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg shadow bg-dark bg-gradient fixed-top">
+          <div class="container">
+            <a class="ml-3 navbar-brand text-secondary" href="#">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav justify-content-center">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-secondary" href="#">Features</a>
+                <a class="nav-link text-secondary" href="#">Pricing</a>
+                <a class="nav-link text-secondary" href="#"><img class="navbar-img" src="images/dummy qr.png" alt="profile image"></a>
+              </div>
+            </div>
+
+          </div>
+        </nav>
+
+        <!--container-->
+        <div class="container-fluid">
+          <div class="row">
+
+            <!--sidebar-->
+            <div class="col-1 bg-dark left-sidebar">
+                <ul class="items flex-columns">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 1</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 2</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 3</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 4</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 5 </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 6</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 7</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 8</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="">link 9</a>
+                  </li>
+                <ul>
+            </div>
+
+            <!--main-->
+            <main role="main" class="col-12 bg-gold">
+              <h1 class="color-black">Dashboard</h1>
+              <hr>
+
+              <div class="row cards justify-content-center mb-2">
+                <div class="col-3 mb-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h1 class="card-title">card 1</h1>
+                      <p class="card-text">some paragraphs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-3 mb-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h1 class="card-title">card 2</h1>
+                      <p class="card-text">some paragraphs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-3 mb-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h1 class="card-title">card 3</h1>
+                      <p class="card-text">some paragraphs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-3 mb-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h1 class="card-title">card 4</h1>
+                      <p class="card-text">some paragraphs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h1 class="card-title">card 5</h1>
+                      <p class="card-text">some paragraphs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h1 class="card-title">card 6</h1>
+                      <p class="card-text">some paragraphs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Table-->
+              <p>Table</p>
+              <div class="table-responsive">
+                <table class="table table-sm table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First Name</th>
+                      <th scope="col">Last Name</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Profession</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-group-divider">
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>Database Admin</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@Thor</td>
+                      <td>Frontend Engineer</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Adam</td>
+                      <td>Johnson</td>
+                      <td>@Ajohnson</td>
+                      <td>Frontend Engineer</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Jean</td>
+                      <td>Claude</td>
+                      <td>@Jclaude</td>
+                      <td>Backend Engineer</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Elizabet</td>
+                      <td>Taylor</td>
+                      <td>@elitay</td>
+                      <td>Design Lead</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Bobby</td>
+                      <td>Brown</td>
+                      <td>@bob</td>
+                      <td>Solution Archtech</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </main>
+          </div>
+        </div>
+
+        <!-- Bootstrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script> -->
+    </body>
+</html>
