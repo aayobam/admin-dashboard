@@ -73,10 +73,15 @@
     color: aliceblue;
 }
 
-main{
+/* main{
     padding-top: 90px;
     width: 100% !important;
     padding-left: 120px !important;
+}    */
+
+main{
+    padding-top: 90px;
+    width: 100% !important;
 }   
 
 
